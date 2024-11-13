@@ -37,6 +37,8 @@ const teamMembers = [
   }
 ];
 
+
+// stampa le card dei membri del team
 for (let i = 0; i < teamMembers.length; i++) {
   const teamMember = teamMembers[i];
   const card = `<div class="col-4">
@@ -55,6 +57,8 @@ for (let i = 0; i < teamMembers.length; i++) {
                         </div>
                     </div>
                 </div>`;
+                
+  // aggiungi la card alla riga
   document.querySelector(".row").innerHTML += card;
 }
 
